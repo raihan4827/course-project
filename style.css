@@ -593,7 +593,7 @@ img {
 }
 
 .section-4 .videos .box-1:hover {
-	transform: rotate(-10deg);
+	transform: scale(1.1);
 }
 
 .section-4 .videos .box-1::before {
@@ -620,7 +620,7 @@ img {
 }
 
 .section-4 .videos .box-2:hover {
-	transform: rotate(10deg);
+	transform: scale(1.1);
 }
 
 .section-4 .videos .box-2::before {
@@ -692,11 +692,6 @@ img {
 .section-5 .testimonial .my-profile img {
 	margin-top: -7rem;
 	width: 45rem;
-	transition: all 1.5s linear;
-}
-
-.section-5 .testimonial .my-profile img:hover {
-	transform: rotateY(360deg);
 }
 
 /* section-6 style from here*/
